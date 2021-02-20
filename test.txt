@@ -1,0 +1,4 @@
+PlayerLog
+
+id;name;vpip;rfi;3b;cbf;cbt;cbr;bi
+

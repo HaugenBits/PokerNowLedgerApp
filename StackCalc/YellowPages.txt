@@ -1,0 +1,14 @@
+christer;412 56 745
+haugen;454 61 280
+øssa;991 16 927
+erling;900 50 872
+halvor;416 88 238
+joakim;414 37 657
+maria;952 90 635
+matti;934 64 569
+stian;913 47 016
+øystein;928 43 620
+nils;484 07 546
+alex;473 66 421
+halle;954 84 979
+runar;924 78 612
