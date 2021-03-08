@@ -10,10 +10,24 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/StackCalc/StackCalc.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/StackCalc/StackCalcApp.py">
           <value>
             <Attribute>
               <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/StackCalc/YellowPages.txt">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
             </Attribute>
           </value>
         </entry>

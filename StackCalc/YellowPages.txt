@@ -12,3 +12,12 @@ nils;484 07 546
 alex;473 66 421
 halle;954 84 979
 runar;924 78 612
+øystein;92 84 36 20
+øyvind;414 26 510
+christer;412 567 45
+jørgen;918 35 513
+morten;980 09 023
+roy;986 81 681
+runarh;481 23 924
+snorre;960 41 230
+tossa;452 02 324

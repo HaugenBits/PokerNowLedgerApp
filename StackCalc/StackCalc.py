@@ -106,6 +106,24 @@ def getPhones():
         return phoneTable
 
 
+def merge_same_name(player_info):
+    i = 0
+    while i < len(player_info):
+        name, bi, bo, net = player_info[i]
+        k = i + 1
+        while k < len(player_info):
+            rname, rbi, rbo, rnet = player_info[k]
+            if name == rname:
+                bi = bi + rbi
+                bo = bo + rbo
+                net = net + rnet
+                player_info[i] = (name, bi, bo, net)
+                player_info.remove(player_info[k])
+            else:
+                k += 1
+        i += 1
+
+
 def main():
     myTable = input("Input PokerNow Web-Adress :\n").split('?')[0]
     phoneTable = getPhones()
@@ -115,10 +133,11 @@ def main():
         myLedger = getTable(myTable)
         playerInfo = getPlayerInfo(myLedger)
         renamePlayers(playerInfo)
+        merge_same_name(playerInfo)
         calcVipps(playerInfo, phoneTable)
         calcNet(playerInfo)
     except:
         print("errors was made")
 
-main()
 
+main()
