@@ -27,6 +27,15 @@ def getCurrentLedger(web_adress):
     return session_log
 
 
+def getCurrentLog(web_adress):
+    """
+    Retrieves Log Json file
+    """
+    link = web_adress+"/log"
+    session_log = requests.get(link)
+    return session_log
+
+
 def getTable(myTable):
     """
     :param myTable: webadress
@@ -81,6 +90,7 @@ def calcVipps(playerInfo, phoneTable):
     for x in vippsMessages:
         print(x)
 
+
 def calcNet(playerInfo):
     print()
     print(time.strftime("%d.%m.%Y"), "Cash", sep=",")
@@ -132,10 +142,8 @@ def main():
         checkSite(myTable)
         myLedger = getTable(myTable)
         playerInfo = getPlayerInfo(myLedger)
-        renamePlayers(playerInfo)
-        merge_same_name(playerInfo)
-        calcVipps(playerInfo, phoneTable)
-        calcNet(playerInfo)
+        print(myLedger)
+
     except:
         print("errors was made")
 
