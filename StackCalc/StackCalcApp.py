@@ -439,7 +439,14 @@ def merge_same_name():
     show_mergeInfo()
 
 
-
+"""
+GUI SETUP
+Master
+    Entry
+    Buttons
+    Player Entry
+    
+"""
 
 # MASTER    Set-up the window
 window = tk.Tk()
