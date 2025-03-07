@@ -8,3 +8,4 @@ We give the ability to merge two players, if they indeed have had consecutiv log
 - Change button can change name of users.
 - Merge button will combine users of the same name.
 
+![screenshot](StackApp.png)
